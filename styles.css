@@ -36,3 +36,91 @@ body {
 .billing-type-switch label {
   color: white;
 }
+
+.plan-boxes {
+  padding-top: 60px;
+}
+
+.starter-pack-box {
+  width: 400px;
+  height: 530px;
+  background-color: #22262C;
+  position: relative;
+  left: 300px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.starter-pack-box h2 {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.starter-pack-price {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.starter-pack-benefits-list {
+  position: relative;
+  left: 70px;
+}
+
+.starter-pack-benefits-list li {
+  margin-bottom: 14px;
+  color: white;
+}
+
+.starter-pack-benefits-list li::marker {
+  color: #BC1E4A;
+}
+
+.choose-plan-button-stater-pack {
+  position: relative;
+  text-align: center;
+  width: 200px;
+  border: 1px solid #BC1E4A;
+  border-radius: 2px;
+  margin-top: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  left: 95px;
+}
+
+.choose-plan-button-stater-pack a {
+  text-decoration: none;
+  color: white;
+}
+
+.choose-plan-button-stater-pack:hover {
+  border-radius: 60px;
+  background-color: #BC1E4A;
+  transition: 2s;
+}
+
+.pro-pack-box {
+  width: 400px;
+  height: 530px;
+  background-color: #22262C;
+  position: relative;
+  left: 300px;
+  bottom: 325px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.pro-pack-box h3 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.pro-pack-price {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+}

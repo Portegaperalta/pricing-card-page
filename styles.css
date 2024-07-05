@@ -184,3 +184,27 @@ body {
   background-color: #BC1E4A;
   transition: 2s;
 }
+
+.enterprise-pack-box {
+  width: 400px;
+  height: 530px;
+  background-color: #22262C;
+  position: relative;
+  left: 300px;
+  top: 10px;
+  bottom: 1px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.enterprise-pack-box h3 {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.enterprise-pack-price {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}

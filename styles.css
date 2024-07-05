@@ -107,7 +107,8 @@ body {
   background-color: #22262C;
   position: relative;
   left: 300px;
-  bottom: 325px;
+  top: 10px;
+  bottom: 1px;
   border-radius: 10px;
   display: inline-block;
 }
@@ -117,10 +118,69 @@ body {
   color: white;
   text-align: center;
   padding-top: 30px;
+  margin-top: 0px;
+  position: relative;
+  top: 23px;
 }
 
 .pro-pack-price {
   color: white;
   text-align: center;
   font-size: 45px;
+  position: relative;
+  top: 30px;
+}
+
+.select-maus-box {
+  text-align: center;
+}
+
+.select-maus-box select {
+  background-color: #22262C;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.select-maus-box p {
+  color: #BC1E4A;
+}
+
+.pro-pack-benefits-list {
+  position: relative;
+  left: 70px;
+}
+
+.pro-pack-benefits-list li {
+  margin-bottom: 14px;
+  color: white;
+}
+
+.pro-pack-benefits-list li::marker {
+  color: #BC1E4A;
+}
+
+.choose-plan-button-pro-pack {
+  position: relative;
+  text-align: center;
+  width: 200px;
+  border: 1px solid #BC1E4A;
+  border-radius: 2px;
+  margin-top: 40px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  left: 95px;
+  bottom: 15px;
+}
+
+.choose-plan-button-pro-pack a {
+  color: white;
+  text-decoration: none;
+}
+
+.choose-plan-button-pro-pack:hover {
+  border-radius: 60px;
+  background-color: #BC1E4A;
+  transition: 2s;
 }

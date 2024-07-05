@@ -1,0 +1,38 @@
+body {
+  background-color: #191B1D;
+  margin: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.current-plan-topbox {
+  text-align: center;
+  border: 2px solid #BC1E4A;
+  background-color: #BC1E4A;
+  width: 400px;
+  position: relative;
+  left: 760px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.current-plan-topbox p {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.memeberhsip-type-text {
+  font-weight: bold;
+}
+
+.choose-plan-main-title {
+  text-align: center;
+  color: white;
+}
+
+.billing-type-switch {
+  text-align: center;
+}
+
+.billing-type-switch label {
+  color: white;
+}
